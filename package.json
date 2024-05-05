@@ -1,0 +1,29 @@
+{
+    "name": "bot-stm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.ts",
+    "scripts": {
+        "pre-copy": "cd .. && npm run  copy.lib base-baileys-json",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "dependencies": {
+        "@bot-whatsapp/bot": "latest",
+        "@bot-whatsapp/cli": "latest",
+        "@bot-whatsapp/database": "latest",
+        "@bot-whatsapp/portal": "latest",
+        "@bot-whatsapp/provider": "latest",
+        "@whiskeysockets/baileys": "6.5.0",
+        "cache-manager": "5.2.4",
+        "chatgpt": "^5.2.5",
+        "dotenv": "^16.4.5",
+        "mime-types": "2.1.35",
+        "wa-sticker-formatter": "4.4.4"
+    },
+    "devDependencies": {
+        "globals": "^15.1.0"
+    },
+    "author": "",
+    "license": "ISC"
+}
